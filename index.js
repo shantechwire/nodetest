@@ -9,7 +9,7 @@ app.get("/", function (req, res) {
 });
 
 // listen to port 3001 by default
-app.listen(process.env.PORT || 3001, () => {
+app.listen(process.env.PORT || 3020, () => {
   console.log("Server is running");
 });
 
